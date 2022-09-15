@@ -1,0 +1,99 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.sub-1 {
+    background-color: #93C47D;
+}
+
+.sub-2 {
+    display: none;
+    background-color: #4A86E8;
+
+}
+
+.sub-3 {
+    display: none;
+    background-color: #93C47D;
+
+}
+
+.sub-4 {
+    display: none;
+    background-color: #4A86E8;
+
+}
+
+.sub-5 {
+    display: none;
+    background-color: #93C47D;
+
+}
+
+
+@media (MAX-WIDTH: 480px) {
+    .sub-1 {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .sub-2 {
+        display: none;
+    }
+
+    .sub-3 {
+        display: none;
+    }
+
+    .sub-4 {
+        display: none;
+    }
+
+    .sub-5 {
+        display: none;
+    }
+
+}
+
+@media (MIN-WIDTH: 481px) AND (MAX-WIDTH: 768px) {
+    .sub-1 {
+        height: 50vh;
+    }
+
+    .sub-2 {
+        display: block;
+        height: 50vh;
+        background-color: #4A86E8;
+    }
+}
+
+@media (MIN-WIDTH: 769px) {
+    .sub-1 {
+        height: 20vh;
+    }
+
+    .sub-2 {
+        display: block;
+        height: 20vh;
+        background-color: #4A86E8;
+    }
+
+    .sub-3 {
+        display: block;
+        height: 20vh;
+        background-color: #516fa3;
+    }
+
+    .sub-4 {
+        display: block;
+        height: 20vh;
+        background-color: #93C47D;
+    }
+
+    .sub-5 {
+        display: block;
+        height: 20vh;
+        background-color: #4A86E8;
+    }
+}
