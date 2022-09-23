@@ -1,0 +1,459 @@
+.container1 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border: 3px solid #000;
+}
+
+.container1 div {
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: #4A86E8;
+}
+
+/* ## CONTAINER 2 ## */
+
+.container2 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 3px solid #000;
+}
+
+.container2 div {
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: #4A86E8;
+}
+
+/* ## CONTAINER 3 ## */
+
+
+.container3 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    border: 3px solid #000;
+}
+
+.container3 div {
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: #4A86E8;
+}
+
+/* ## CONTAINER 4 ## */
+
+
+.container4 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    border: 3px solid #000;
+}
+
+.container4 div {
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: #4A86E8;
+}
+
+/* ## CONTAINER 5 ## */
+
+
+.container5 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border: 3px solid #000;
+}
+
+.container5 div {
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: #4A86E8;
+}
+
+/* ##CONTAINER 6## */
+
+.container6 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap-reverse;
+    border: 3px solid #000;
+}
+
+.container6 div {
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: #4A86E8;
+}
+
+/* ## CONTAINER 7 ## */
+
+.container7 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 3px solid #000;
+}
+
+.container7 .inside-container {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 100%;
+}
+
+
+.container7 .inside-container div {
+    width: 10rem;
+    height: 10rem; 
+    background-color: #4A86E8;
+}
+
+.container7 div:first-child {
+    justify-content: space-between;
+}
+
+.container7 div:last-child {
+    align-items:flex-end ;
+    justify-content: space-around;
+}
+
+/* ## CONTAINER 8 ## */
+
+.container8 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #000;
+}
+
+.container8 div {
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: #4A86E8;
+}
+
+/* ## CONTAINER 9 ## */
+
+.container9 {
+    height: 100vh;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #000;
+}
+
+.container9 div {
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: #4A86E8;
+}
+
+.container9 div:nth-child(2) {
+    height: 8rem;
+}
+
+.container9 div:nth-child(3) {
+    height: 12rem;
+}
+
+/* ## CONTAINER 10 ## */
+
+.container10 {
+    height: 100vh;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #000;
+}
+
+.container10 div {
+    width: 10rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: #4A86E8;
+}
+
+/* ## CONTAINER 10 ## */
+
+.container10 {
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 3px solid #000;
+}
+
+.container10 div {
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: #4A86E8;
+}
+
+.container10 div:nth-child(2) {
+    background-color: red;
+}
+
+/* ## CONTAINER 11 ## */
+
+.container11 {
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 3px solid #000;
+}
+
+.container11 div {
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: #4A86E8;
+}
+
+.container11 div:nth-child(2) {
+    order: -1;
+    background-color: red;
+}
+
+/* ## CONTAINER 12 ## */
+
+.container12 {
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 3px solid #000;
+}
+
+.container12 div {
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: #4A86E8;
+}
+
+.container12 div:nth-child(3) {
+    order: -1;
+}
+
+.container12 div:nth-child(2) {
+    background-color: red;
+}
+
+/* ## CONTAINER 13 ## */
+
+.container13 {
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    border: 3px solid #000;
+}
+
+.container13 div {
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: #4A86E8;
+}
+
+.container13 div:nth-child(2) {
+    align-self: flex-end;
+    background-color: red;
+}
+
+/* ## CONTAINER 14 ## */
+
+.container14 {
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    border: 3px solid #000;
+}
+
+.container14 div {
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: #4A86E8;
+}
+
+.container14 div:nth-child(2) {
+    align-self: flex-end;
+    background-color: red;
+    height: 100%;
+}
+
+/* ## CONTAINER 15 ## */
+
+.container15 {
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    border: 3px solid #000;
+}
+
+.container15 div {
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: #4A86E8;
+}
+
+.container15 div:nth-child(2) {
+    background-color: red;
+    flex: 2
+}
+
+/* ## CONTAINER 16 ## */
+
+.container16 {
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    border: 3px solid #000;
+}
+
+.container16 div {
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: #4A86E8;
+}
+
+.container16 div:nth-child(1) {
+    flex: 2
+}
+
+.container16 div:nth-child(2) {
+    background-color: red;
+}
+
+.container16 div:nth-child(3) {
+    flex: 2
+}
