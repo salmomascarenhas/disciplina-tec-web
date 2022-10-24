@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+}
+/* HEADER  */
+#header {
+    width: 100%;
+    height: 100px;
+    padding: 0 30px;
+    background-color: #727272;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header h2 {
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+#header nav {
+    height: auto;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+#navbar a:hover {
+    color: #c0c0c0;
+}
+
+/* CONTENT */
+#content {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    padding: 30px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas:
+    "post1 post2 post3"
+    "group1 group2 big-bock"; 
+}
+
+#content > div{
+    width: 30%;
+    height: 100px;
+    background-color: black;
+}
+
+.container-grid post1{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    grid-area: post1;   
+}
+
+.container-grid post2{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    grid-area: post2;   
+}
+
+.container-grid post3{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    grid-area: post3;   
+}
+
+.container-grid group1{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    grid-area: group1;   
+}
+
+.container-grid group2{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    grid-area: group2;   
+}
+
+.container-grid big-block{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    grid-area: big-block;   
+}
+
+
+
+/* FOOTER */
+#footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #727272;
+}
+
+#footer p {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+
